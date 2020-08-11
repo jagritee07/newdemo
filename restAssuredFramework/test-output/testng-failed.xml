@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="restAssuredFramework.Test_02">
+        <methods>
+          <include name="test_04"/>
+          <include name="test_01"/>
+          <include name="test_02"/>
+          <include name="test_03"/>
+        </methods>
+      </class> <!-- restAssuredFramework.Test_02 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
